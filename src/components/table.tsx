@@ -5,7 +5,7 @@ import { map } from 'lodash';
 export interface Data {
     scenario: string;
     claudia: number;
-    clinton: number;
+    melanie: number;
     lukas: number;
     jezabel: number;
     julian: number;
@@ -37,8 +37,8 @@ export const Table = (props: Props) => {
                 header: 'Claudia',
             },
             {
-                accessorKey: 'clinton',
-                header: 'Clinton',
+                accessorKey: 'melanie',
+                header: 'Melanie',
             },
             {
                 accessorKey: 'lukas',

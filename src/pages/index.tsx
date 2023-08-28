@@ -34,7 +34,7 @@ function createScenario({
   const scenario = {
     scenario: name,
     claudia: calcSaarPerson(saarstr.squareMeters.claudia, deviderSaar),
-    clinton: calcSaarPerson(saarstr.squareMeters.clinton, deviderSaar),
+    melanie: calcSaarPerson(saarstr.squareMeters.melanie, deviderSaar),
     lukas: calcSaarPerson(saarstr.squareMeters.lukas, deviderSaar),
     jezabel: calcSaarPerson(saarstr.squareMeters.jezabel, deviderSaar, multiplierSaar),
     julian: calcHarmsPerson({ roomSize: harmsstr.squareMeters.julian, devider: deviderHarms, multiplier: multiplierHarms, isJulian: true }),
