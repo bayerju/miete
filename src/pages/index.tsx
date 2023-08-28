@@ -13,7 +13,7 @@ function roundToFullNumber(number: number) {
 
 
 function calcSaarPerson(roomSize: number, devider = 4, multiplier = 1) {
-  return round(roomSize * saarstr.costs.costPerSquareMeter + saarstr.costs.nebenkosten.prognose / devider * multiplier + saarstr.squareMeters.gemeinsam / devider * multiplier * saarstr.costs.costPerSquareMeter);
+  return round(roomSize * saarstr.costs.costPerSquareMeter + saarstr.costs.nebenkosten.aktuell / devider * multiplier + saarstr.squareMeters.gemeinsam / devider * multiplier * saarstr.costs.costPerSquareMeter);
 }
 
 function calcHarmsPerson({ roomSize, devider = 3, multiplier = 1, isJulian = false }: { roomSize: number, devider?: number, multiplier?: number, isJulian?: boolean }) {
