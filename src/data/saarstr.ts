@@ -17,7 +17,7 @@ export const saarstr = {
         GEZ: 18.36,
         internet: 34.99,
         Heizung: 328,
-        versicherung: 3,
-        zwanzig: 20, // hab vergessen wofür das war
+        versicherung: 20,
+        kontofuehrung: 3, // hab vergessen wofür das war
     } as const
 } as const;
